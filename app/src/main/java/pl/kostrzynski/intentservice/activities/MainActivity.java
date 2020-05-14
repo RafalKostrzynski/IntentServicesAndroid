@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         stopService(intent);
     }
 
+    public void onClickChangeActivity(View view){
+        Intent intent = new Intent(this, BoundActivity.class);
+        startActivity(intent);
+    }
+
 }
